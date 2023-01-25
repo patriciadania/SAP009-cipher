@@ -1,94 +1,61 @@
 <!DOCTYPE html>
-<br>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  <img src="cripto.jpg" height="200px" width="1400px" >
-  <style>
-  .btn{
-    border-radius: 4px;
-    background-color: blue;
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    padding: 10px;
-    width: 130px;
-    cursor: pointer;
-}
-.btn span {
-        position: relative;
-        transition: 0.5s;
-      }
- 
-      .btn span:after {
-        content: "\00bb";
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-      }
- 
-      .btn:hover span {
-        padding-right: 25px;
-      }
- 
-      .btn:hover span:after {
-        opacity: 1;
-        right: 0;
-      }
-</style>
-
-  </head>
-
-  <br>
-
-    <div id="root">
-      <h1>Criptografar e Descriptografar</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-<br> 
-  </br>
-  <body> 
-  <p>A criptografia é um conjunto de técnicas pensadas para proteger uma informação de modo que apenas o emissor e receptor consigam compreendê-la. É utilizada em comunicações digitais, como na troca de mensagens ou em pagamentos online. A descriptografia é a operação inversa da criptografia. Esse é o processo realizado para “destravar” seus arquivos criptografados. 
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= 'stylesheet' href="style.css"/>
     
-  </p>
+      
+    <title>Cesar Cipher</title>
+</head>
+<body>
+    <style>
+    body {
+        background-image: url("/src/Segurança-cibernética.jpg") ;
+        
+    } 
+    </style>
+    <div>
+        <h1> Criptografia e Descriptografia</h1>
+        <br> 
+        <p> A criptografia é um conjunto de técnicas pensadas para proteger uma informação de modo que apenas o emissor e receptor consigam compreendê-la. É utilizada em comunicações digitais, como na troca de mensagens ou em pagamentos online. A descriptografia é a operação inversa da criptografia. Esse é o processo realizado para “destravar” seus arquivos criptografados.</p>
+        
+    </div>
+ <div class="grid">
+
+<div class="produto">
+
+    <h2> Criptografia</h2>
+          <textarea placeholder="Escreva seu texto aqui"  id="TextoParaCriptografar" name="TextoParaCriptografar"class="texto" rows="5" cols="40"></textarea>
+
+          <input type="submit" id="cifrar" class="enviar"  value="Criptografar" />
+
+  <textarea id="TextoCriptografado" rows="5" cols="40 "> </textarea>
+  <input type="button" class="enviar"  value="Limpar" onclick="window.location.reload()">
  
-<ul class="produto">
-<li>
+ </div>
 
-<h2> Criptografia</h2>
+ 
+  <div class="produto1">
 
-<textarea id="input" rows="5" cols="40" style="background-color: white;">ESCREVA SEU TEXTO AQUI</textarea>
-<br></br>
+    <h3> Descriptografia</h3>
+            <textarea placeholder="Escreva aqui sua criptografia" id="TextoParaDescriptografar" name= "TextoParaDescriptografar" class ="texto" rows="5" cols="40"></textarea>
 
-
-<button class="btn"><span> Criptografar</span></button> 
-
- <br></br>
- <p> Texto criptografado</p>
- <textarea id="input" rows="5" cols="40" style="background-color: white;"></textarea>
-</li>
-<li> 
- <h3> Descriptografia</h3>
-
-
-<textarea id="input" rows="5" cols="40" style="background-color: white;">ESCREVA AQUI A CRIPTOGRAFIA</textarea>
-<br></br>
-<button class="btn"><span> Descriptografar</span></button>
- <br></br>
- <p> Texto descriptografado</p>
- <textarea id="input" rows="5" cols="40" style="background-color: white;"></textarea>
-</li>
-</ul>
+            <input type="submit" id="decifrar" class="enviar" value="Descriptografar" /> 
+            <textarea id= "TextoDescriptografado" name="TextoDescriptografado"  rows="5" cols="40" ></textarea>
+            <input type="button" class="enviar"   value="Limpar" onclick="window.location.reload()">
+</div>
+        </div>
+ 
+           
+        <footer>ENTRE EM CONTATO CONOSCO ATRAVÉS DE NOSSAS REDES SOCIAIS.</footer>
+         
+<img src="/src/kisspng-social-media-computer-icons-social-network-social-icons-5ac29c7f972a46.1862758015227034876192.png" height="100px">
+        
+          
+        <script src="/src/index.js" type="module"></script>
+</body>
 
 
-
-<footer>
-  <p>Entre em contato conosco através de nossas redes sociais.</p>
-</footer>
-
-  </body>
 </html>

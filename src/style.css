@@ -1,35 +1,70 @@
+*{
+    margin: 5px;
+    padding: 10px;
+}
+
 h1{
-    color: rgb(9, 9, 190);
+    color: white;
     align-items: center;
     text-align: center;
+    font-size: 40px;
+    font-family: Arial;
+    margin: 5px;
+    padding: 5px;
+}
+h2{
+    color: white;
+   
+   margin: 10px;
     font-size: 30px;
-    font-family: georgia;
 }
 h3{
-    font-size: 23px;
+    color: white;
+   
+margin: 10px;
+    font-size: 30px;
+    font-family: georgia; 
+
 }
-.produto {
-    width: 1030px;
-    margin: 0 auto;
-    padding: 50px 0;
-    text-align: center;
-    color: blue;
+
+.produto, .produto1 {
+    
+    padding: 5px;
+    display: grid;
+    position: relative;
+    gap: 5px;
+   
+    
 }
-.produto li {
-    display: inline-block;
-    text-align: center;
-    width: 40%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border-style:double;
-    border-radius: 10px;
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+
+}
+p{
+    font-family: Arial;
+    font-size: 16px;
+    color: whitesmoke;
     
 }
 footer{
     align-items: center;
+    font-family: Arial;
     text-align: center;
- 
-}
+    margin: 40px;
+    color: white;
 
+}
+ .textarea{
+    border-radius: 10px;
+ }
+
+ img {
+    mix-blend-mode: multiply;
+    margin: auto;
+    display: block;
+    width: 20%;
+    
+ }
