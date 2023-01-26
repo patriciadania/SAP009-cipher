@@ -14,16 +14,19 @@ h1{
 }
 h2{
     color: white;
-   
+
    margin: 10px;
     font-size: 30px;
+    font-family: Arial;
+    background-color: rgb(3, 3, 53);
 }
 h3{
     color: white;
    
 margin: 10px;
     font-size: 30px;
-    font-family: georgia; 
+    font-family: Arial; 
+    background-color: rgb(3, 3, 53);
 
 }
 
