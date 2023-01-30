@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= 'stylesheet' href="style.css"/>
+    <link rel= "stylesheet" href="style.css"/>
     
       
     <title>Cesar Cipher</title>
@@ -22,32 +22,45 @@
         <p> A criptografia é um conjunto de técnicas pensadas para proteger uma informação de modo que apenas o emissor e receptor consigam compreendê-la. É utilizada em comunicações digitais, como na troca de mensagens ou em pagamentos online. A descriptografia é a operação inversa da criptografia. Esse é o processo realizado para “destravar” seus arquivos criptografados.</p>
         
     </div>
- <div class="grid">
 
-<div class="produto">
 
+        <div class="grid">
+        <div class="produto">
+          <div class="cripto">
+          <label class="desloca">Escolha aqui seu deslocamento :</label>
+          <select id="deslocamento" required="required">
+            <option value="11">11</option>
+            <option value="33">33</option>
+          </select></div>
+          
     <h2> Criptografia</h2>
-          <textarea placeholder="Escreva seu texto aqui"  id="TextoParaCriptografar" name="TextoParaCriptografar"class="texto" rows="5" cols="40"></textarea>
+     <textarea placeholder ="Escreva seu texto aqui"  id="TextoParaCriptografar" name="TextoParaCriptografar" class="texto" rows="5" cols="40"></textarea>
 
-          <input type="submit" id="cifrar" class="enviar"  value="Criptografar" />
+<input type="submit" id="cifrar" class="enviar"  value="Criptografar" />
 
-  <textarea id="TextoCriptografado" rows="5" cols="40 "> </textarea>
+  <textarea id="TextoCriptografado" rows="5" cols="40 "></textarea>
   <input type="button" class="enviar"  value="Limpar" onclick="window.location.reload()">
+</div>
  
- </div>
 
  
   <div class="produto1">
+    <div class=" cripto"> 
+    <label class="desloca2">Escolha aqui seu deslocamento :</label>
+<select id="deslocamento2" required="required">
+  <option value="11">11</option>
+  <option value="33">33</option>
+</select></div>
 
     <h3> Descriptografia</h3>
-            <textarea placeholder="Escreva aqui sua criptografia" id="TextoParaDescriptografar" name= "TextoParaDescriptografar" class ="texto" rows="5" cols="40"></textarea>
+         <textarea placeholder="Escreva aqui sua criptografia" id="TextoParaDescriptografar" name="TextoParaDescriptografar" class ="texto" rows="5" cols="40"></textarea>
 
-            <input type="submit" id="decifrar" class="enviar" value="Descriptografar" /> 
-            <textarea id= "TextoDescriptografado" name="TextoDescriptografado"  rows="5" cols="40" ></textarea>
-            <input type="button" class="enviar"   value="Limpar" onclick="window.location.reload()">
+         <input type="submit" id="decifrar" class="enviar" value="Descriptografar" /> 
+        <textarea id= "TextoDescriptografado" name="TextoDescriptografado"  rows="5" cols="40" ></textarea>
+         <input type="button" class="enviar"   value="Limpar" onclick="window.location.reload()">
 </div>
-        </div>
- 
+        
+ </div>
            
         <footer>ENTRE EM CONTATO CONOSCO ATRAVÉS DE NOSSAS REDES SOCIAIS.</footer>
          

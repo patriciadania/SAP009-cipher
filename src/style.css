@@ -36,6 +36,8 @@ margin: 10px;
     display: grid;
     position: relative;
     gap: 5px;
+    border-radius: 5px;
+    border: solid;
    
     
 }
@@ -70,4 +72,11 @@ footer{
     display: block;
     width: 20%;
     
+ }
+ 
+ .desloca , .desloca2{
+    color: white;
+    background-color: rgb(3, 3, 53);
+    font-size: 20px;
+    font-family: Arial;
  }
