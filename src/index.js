@@ -4,7 +4,7 @@ import cipher from './cipher.js';
 function cifrar(){
   const textoCifrar= document.querySelector("#TextoParaCriptografar").value.trim();
   const offset = document.querySelector("#deslocamento").value;
-  const resultado = cipher.encode(textoCifrar, parseInt(offset ));
+  const resultado = cipher.encode(parseInt(offset ), textoCifrar);
   document.querySelector("#TextoCriptografado").innerText = resultado;
 }
 
@@ -20,7 +20,7 @@ document.querySelector("#TextoParaCriptografar").addEventListener("input", texto
 function decifrar(){
   const textoCifrado= document.querySelector("#TextoParaDescriptografar").value.trim();
   const offset = document.querySelector("#deslocamento2").value;
-  const traduz = cipher.decode(textoCifrado, parseInt( offset));
+  const traduz = cipher.decode(parseInt(offset ), textoCifrado);
   document.querySelector("#TextoDescriptografado").innerText = traduz;
 }
 const inputDecifrar = document.querySelector("#decifrar");
