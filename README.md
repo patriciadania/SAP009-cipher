@@ -1,11 +1,38 @@
-# Cifra de César
+# Cifra de César 💻
+
+Esse foi o primeiro projeto desenvolvido para o bootcamp da @Laboratoria. Essa aplicação permite que o usuário codifique ou descodifique suas senhas de forma segura. O método usado para esse projeto foi a Cifra de César.
+***
+<div align="center">
+  
+  
+
+
+  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+      <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="vscode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+ 
+  
+  <br>
+
+  Desenvolvido por : <br>
+  <br>
+    Patricia Adania de Oliveira<br>
+  [Linkedin](https://www.linkedin.com/in/patriciadania/) | [Github](https://github.com/patriciadania)
+  <br>
+
+  
+</div>
+ 
+***
 
 ## Índice
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Considerações gerais](#3-considerações-gerais)
-* [4. Considerações técnicas](#6-considerações-técnicas)
+* [4. Considerações técnicas](#4-considerações-técnicas)
 
 
 
