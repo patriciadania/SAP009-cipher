@@ -1,75 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheet" href="style.css"/>
-    
-      
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Cesar Cipher</title>
-</head>
-<body>
+  </head>
+  <body>
     <style>
-    body {
-        background-image: url("Segurança-cibernética.jpg") ;
-        
-    } 
+      body {
+        background-image: url("Segurança-cibernética.jpg");
+      }
     </style>
     <div>
-        <h1> Criptografia e Descriptografia</h1>
-        <br> 
-        <p> A criptografia é um conjunto de técnicas pensadas para proteger uma informação de modo que apenas o emissor e receptor consigam compreendê-la. É utilizada em comunicações digitais, como na troca de mensagens ou em pagamentos online. A descriptografia é a operação inversa da criptografia. Esse é o processo realizado para “destravar” seus arquivos criptografados.</p>
-        
+      <h1>Criptografia e Descriptografia</h1>
+      <br />
+      <p>
+        A criptografia é um conjunto de técnicas pensadas para proteger uma
+        informação de modo que apenas o emissor e receptor consigam
+        compreendê-la. É utilizada em comunicações digitais, como na troca de
+        mensagens ou em pagamentos online. A descriptografia é a operação
+        inversa da criptografia. Esse é o processo realizado para “destravar”
+        seus arquivos criptografados.
+      </p>
     </div>
 
-
-        <div class="grid">
-        <div class="produto">
-          <div class="cripto">
+    <div class="grid">
+      <div class="produto">
+        <div class="cripto">
           <label class="desloca">Escolha aqui seu deslocamento :</label>
           <select id="deslocamento" required="required">
-            <option value="11">11</option>
-            <option value="33">33</option>
-          </select></div>
-          
-    <h2> Criptografia</h2>
-     <textarea placeholder ="Escreva seu texto aqui"  id="TextoParaCriptografar" name="TextoParaCriptografar" class="texto" rows="5" cols="40"></textarea>
+            <option value="11">1</option>
+            <option value="33">2</option>
+            <option value="33">3</option>
+            <option value="33">4</option>
+            <option value="33">5</option>
+            <option value="33">6</option>
+            <option value="33">7</option>
+            <option value="33">8</option>
+            <option value="33">9</option>
+            <option value="33">10</option>
+            <option value="33">20</option>
+            <option value="33">30</option>
+          </select>
+        </div>
 
-<input type="submit" id="cifrar" class="enviar"  value="Criptografar" />
+        <h2>Criptografia</h2>
+        <textarea
+          placeholder="Escreva seu texto aqui"
+          id="TextoParaCriptografar"
+          name="TextoParaCriptografar"
+          class="texto"
+          rows="5"
+          cols="40"
+        ></textarea>
 
-  <textarea id="TextoCriptografado" rows="5" cols="40 "></textarea>
-  <input type="button" class="enviar"  value="Limpar" onclick="window.location.reload()">
-</div>
- 
+        <input type="submit" id="cifrar" class="enviar" value="Criptografar" />
 
- 
-  <div class="produto1">
-    <div class=" cripto"> 
-    <label class="desloca2">Escolha aqui seu deslocamento :</label>
-<select id="deslocamento2" required="required">
-  <option value="11">11</option>
-  <option value="33">33</option>
-</select></div>
+        <textarea id="TextoCriptografado" rows="5" cols="40 "></textarea>
+        <input
+          type="button"
+          class="enviar"
+          value="Limpar"
+          onclick="window.location.reload()"
+        />
+      </div>
 
-    <h3> Descriptografia</h3>
-         <textarea placeholder="Escreva aqui sua criptografia" id="TextoParaDescriptografar" name="TextoParaDescriptografar" class ="texto" rows="5" cols="40"></textarea>
+      <div class="produto1">
+        <div class="cripto">
+          <label class="desloca2">Escolha aqui seu deslocamento :</label>
+          <select id="deslocamento2" required="required">
+            <option value="11">1</option>
+            <option value="33">2</option>
+            <option value="33">3</option>
+            <option value="33">4</option>
+            <option value="33">5</option>
+            <option value="33">6</option>
+            <option value="33">7</option>
+            <option value="33">8</option>
+            <option value="33">9</option>
+            <option value="33">10</option>
+            <option value="33">20</option>
+            <option value="33">30</option>
+          </select>
+        </div>
 
-         <input type="submit" id="decifrar" class="enviar" value="Descriptografar" /> 
-        <textarea id= "TextoDescriptografado" name="TextoDescriptografado"  rows="5" cols="40" ></textarea>
-         <input type="button" class="enviar"   value="Limpar" onclick="window.location.reload()">
-</div>
-        
- </div>
-           
-        <footer>ENTRE EM CONTATO CONOSCO ATRAVÉS DE NOSSAS REDES SOCIAIS.</footer>
-         
-<img src="kisspng-social-media-computer-icons-social-network-social-icons-5ac29c7f972a46.1862758015227034876192.png" height="100px">
-        
-          
-        <script src="index.js" type="module"></script>
-</body>
-<!--aqui é o novo comentário -->
+        <h3>Descriptografia</h3>
+        <textarea
+          placeholder="Escreva aqui sua criptografia"
+          id="TextoParaDescriptografar"
+          name="TextoParaDescriptografar"
+          class="texto"
+          rows="5"
+          cols="40"
+        ></textarea>
 
+        <input
+          type="submit"
+          id="decifrar"
+          class="enviar"
+          value="Descriptografar"
+        />
+        <textarea
+          id="TextoDescriptografado"
+          name="TextoDescriptografado"
+          rows="5"
+          cols="40"
+        ></textarea>
+        <input
+          type="button"
+          class="enviar"
+          value="Limpar"
+          onclick="window.location.reload()"
+        />
+      </div>
+    </div>
 
+    <footer>ENTRE EM CONTATO CONOSCO ATRAVÉS DE NOSSAS REDES SOCIAIS.</footer>
+
+    <img
+      src="kisspng-social-media-computer-icons-social-network-social-icons-5ac29c7f972a46.1862758015227034876192.png"
+      height="100px"
+    />
+
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
