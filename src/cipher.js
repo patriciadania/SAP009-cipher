@@ -1,6 +1,6 @@
  
 const cipher = {encode, decode};
-
+/*objeto  e duas propriedades*/
 function encode(offset, textoCifrar){
   let mensagem = "";
   if(typeof textoCifrar !== "string" || typeof offset !=="number"){

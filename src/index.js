@@ -11,11 +11,15 @@ function cifrar(){
 const inputCifrar = document.querySelector("#cifrar");
 inputCifrar.addEventListener("click",cifrar);
 
-function textoMaiusculo(event) {
+
+ function textoMaiusculo(event) {
   const texto = event.target.value
   event.target.value = texto.toUpperCase();
 }
+ 
+
 document.querySelector("#TextoParaCriptografar").addEventListener("input", textoMaiusculo);
+
 
 function decifrar(){
   const textoCifrado= document.querySelector("#TextoParaDescriptografar").value.trim();
@@ -26,4 +30,4 @@ function decifrar(){
 const inputDecifrar = document.querySelector("#decifrar");
 inputDecifrar.addEventListener("click",decifrar);
 
-document.querySelector("#TextoParaDescriptografar").addEventListener("input", textoMaiusculo)
+document.querySelector("#TextoParaDescriptografar").addEventListener("input", textoMaiusculo);
