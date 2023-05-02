@@ -1,4 +1,4 @@
-# Cifra de César 💻
+# Cifra de César 💻:lock:
 
 Esse foi o primeiro projeto desenvolvido para o bootcamp da @Laboratoria. Essa aplicação permite que o usuário codifique ou descodifique suas senhas de forma segura. O método usado para esse projeto foi a Cifra de César.
 ***
@@ -31,7 +31,7 @@ Esse foi o primeiro projeto desenvolvido para o bootcamp da @Laboratoria. Essa a
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Considerações gerais](#3-considerações-gerais)
+* [3. Interface do Projeto](#3-interface-do-projeto)
 * [4. Considerações técnicas](#4-considerações-técnicas)
 
 
@@ -61,9 +61,14 @@ Foi escolhido um tema simples, aonde o usuário poderá criar senhas seguras e e
 
 
 
-## 3. Considerações gerais
+## 3. Interface do projeto
 
 A criação teve o objetivo de forncer ao usuário uma experiência segura e prática. Ela permite a ele escolher um offset que indica qual posição de deslocar os caracteres para que a cifra use, colocar uma mensagem para ser cifrada ou decifrada, visualizar os seus resultados e poder apagar o que foi feito.
+
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/120285942/235776366-2cada40d-0456-4ba7-b4ac-d4281fb34618.png" />
+</div>
+
 
 
 ## 4. Considerações técnicas
@@ -82,7 +87,12 @@ e _lines_, e  _branches_. O _boilerplate_ já contem o setup
 e configurações necessárias para executar os testes assim como _code coverage_
 para ver o nível de cobertura dos testes usando o comando `npm test`.
 
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/120285942/235776758-a0104d96-65c3-49c0-ba66-d00d7cbb07dd.png" />
+</div>
+
 VERIFIQUE AQUI O SITE:
 https://patriciadania.github.io/SAP009-cipher/src/
+
 
 
